@@ -7,48 +7,48 @@
 }
 
 .josek-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: black;
-    height: 60px;
-    line-height: 60px;
-    position: fixed;
-    top: 0%;
-    left: 0%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  line-height: 60px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
 }
 .josek-PName {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .josek-empresariales {
-    margin-left: 10px;
-    width: 0px;
-    padding: 3px;
-    margin-top: 70px;
-    border-radius: 5px;
-    transition: width 1s;
-    background-color: yellow;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  width: 0px;
+  padding: 3px;
+  margin-top: 70px;
+  border-radius: 5px;
+  transition: width 1s;
+  background-color: yellow;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .josek-empresariales:hover {
-    width: 150px;
-    text-shadow: #737272;
-    font-weight: bold;
+  width: 150px;
+  text-shadow: #737272;
+  font-weight: bold;
 }
 .josek-titular {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
     "AppleGothic", sans-serif;
-    font-size: px;
-    padding: 40px 50px;
-    text-align: center;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-    color: #131313;
-    background-color: none;
-    letter-spacing: 0.15em;
-    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+  font-size: px;
+  padding: 40px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #131313;
+  background-color: none;
+  letter-spacing: 0.15em;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
     -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
     -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89,
     -9px 18px 1px #8f8e8d, -10px 20px 1px #949392, -11px 22px 1px #999897,
@@ -62,53 +62,53 @@
 
 /* Day: pie de articulo */
 .pie-articulo {
-    max-width: 800px;
-    margin: auto;
-    background-color: whitesmoke;
-    font-family: 'Lato', sans-serif;
-    padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: whitesmoke;
+  font-family: "Lato", sans-serif;
+  padding: 30px;
 }
 
 .pietexto h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .pietexto em {
-    text-align: justify;
+  text-align: justify;
 }
 
 .pietexto a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .pietexto a:hover {
-    color: #ffb861;
+  color: #ffb861;
 }
 
 .pieform {
-    width: 300px;
-    height: 350px;
-    background-color: #fff6a1;
-    border-radius: 1rem;
-    padding: 30px;
+  width: 300px;
+  height: 350px;
+  background-color: #fff6a1;
+  border-radius: 1rem;
+  padding: 30px;
 }
 
 #pieboton {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    background-color: #59002a;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  background-color: #59002a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
 }
 
 #pieboton:hover {
-    background-color: #330000;
-    transition-duration: 0.3s;
+  background-color: #330000;
+  transition-duration: 0.3s;
 }
 
 /* Marcelo: cuerpo de la noticia */
@@ -119,112 +119,127 @@
 .cuerpo-articulo-espalda-texto,
 .cuerpo-figcaption-desastre,
 .cuerpo-figcaption-espalda {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .cuerpo-articulo-desastre-texto,
 .cuerpo-articulo-espalda-texto {
-    line-height: 1.6rem;
+  line-height: 1.6rem;
 }
 
 #cuerpo {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 
 .cuerpo-titulo {
-    color: red;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+  color: red;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .cuerpo-audio-container {
-    width: fit-content;
+  width: fit-content;
 }
 
 .cuerpo-audio-titulo {
-    margin-bottom: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 .cuerpo-audio-container > audio {
-    width: 100%;
+  width: 100%;
 }
 
 .cuerpo-texto {
-    margin: 2rem 0;
-    text-align: center;
-    background-color: black;
-    padding: 1em;
-    color: white;
-    font-size: 1.1rem;
-    border-radius: 10px;
+  margin: 2rem 0;
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
 }
 
 .cuerpo-articulo-desastre {
-    display: flex;
-    gap: 1rem;
-    width: 100%;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .cuerpo-figure-desastre,
 .cuerpo-figure-espalda {
-    margin: 0;
-    overflow: hidden;
+  margin: 0;
+  overflow: hidden;
 }
 
 .cuerpo-figure-desastre {
-    width: 50%;
-    flex-shrink: 0;
+  width: 50%;
+  flex-shrink: 0;
 }
 
 .cuerpo-img-desastre {
-    width: 100%;
+  width: 100%;
 }
 
 .cuerpo-articulo-espalda {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .cuerpo-figure-espalda {
-    width: 50%;
-    flex-shrink: 0;
-    order: 1;
+  width: 50%;
+  flex-shrink: 0;
+  order: 1;
 }
 
 .cuerpo-img-espalda {
-    width: 100%;
-    height: 225px;
-    object-fit: cover;
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
   /* transform: translateY(-200px); */
 }
 
 /* Santos: sobre el autor */
+#autor {
+  background-color: rgb(234, 222, 219);
+  width: 400px;
+  padding: 25px;
+  border: 24px solid rgb(255, 255, 255);
+  margin: 24px;
+}
+
+#mono {
+  background-color: rgb(196, 156, 144);
+  width: 400px;
+  padding: 25px;
+  border: 24px solid rgb(255, 255, 255);
+  margin: 24px;
+}
 
 /* Gabriel: descripcion */
-    .card {
-    margin: auto;
-    width: 20rem;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    }
-
-    .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
-
-    .container {
-    padding: 2px 16px;
-    }
-.h3{
-    font-size: 20vw;
+.card {
+  margin: auto;
+  width: 20rem;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
-.card > img{
-    width: 100%;
-    height: auto;
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.h3 {
+  font-size: 20vw;
+}
+.card > img {
+  width: 100%;
+  height: auto;
 }
 /* Enri: redes sociales */
