@@ -1,9 +1,105 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* CUIDEN NO SELECCIONAR LOS ITEMS DE LOS OTROS */
 /* Day: pie de articulo */
 
 /* Jose: titular */
 
 /* Marcelo: cuerpo de la noticia */
+.cuerpo-titulo,
+.cuerpo-texto,
+.cuerpo-audio-titulo,
+.cuerpo-articulo-desastre-texto,
+.cuerpo-articulo-espalda-texto,
+.cuerpo-figcaption-desastre,
+.cuerpo-figcaption-espalda {
+  font-family: sans-serif;
+}
+
+.cuerpo-articulo-desastre-texto,
+.cuerpo-articulo-espalda-texto {
+  line-height: 1.6rem;
+}
+
+#cuerpo {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.cuerpo-titulo {
+  color: red;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cuerpo-audio-container {
+  width: fit-content;
+}
+
+.cuerpo-audio-titulo {
+  margin-bottom: 0.6rem;
+}
+
+.cuerpo-audio-container > audio {
+  width: 100%;
+}
+
+.cuerpo-texto {
+  margin: 2rem 0;
+  text-align: center;
+  background-color: black;
+  padding: 1em;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.cuerpo-articulo-desastre {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.cuerpo-figure-desastre,
+.cuerpo-figure-espalda {
+  margin: 0;
+  overflow: hidden;
+}
+
+.cuerpo-figure-desastre {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.cuerpo-img-desastre {
+  width: 100%;
+}
+
+.cuerpo-articulo-espalda {
+  display: flex;
+  gap: 1rem;
+}
+
+.cuerpo-figure-espalda {
+  width: 50%;
+  flex-shrink: 0;
+  order: 1;
+}
+
+.cuerpo-img-espalda {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  /* transform: translateY(-200px); */
+}
 
 /* Santos: sobre el autor */
 
