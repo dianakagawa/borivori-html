@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .josek-header {
     display: flex;
     justify-content: center;
@@ -51,18 +59,57 @@
     -24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc,
     -27px 54px 1px #e2e0df, -28px 56px 1px #e4e3e2;
 }
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* Day: pie de articulo */
+.pie-articulo {
+    max-width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
 }
 
-/* CUIDEN NO SELECCIONAR LOS ITEMS DE LOS OTROS */
-/* Day: pie de articulo */
+.pietexto h2 {
+    text-align: center;
+}
 
-/* Jose: titular */
+.pietexto em {
+    text-align: justify;
+}
+
+.pietexto a {
+    text-decoration: none;
+    color: black;
+}
+
+.pietexto a:hover {
+    color: #ffb861;
+}
+
+.pieform {
+    width: 300px;
+    height: 350px;
+    background-color: #fff6a1;
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+#pieboton {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #59002a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+#pieboton:hover {
+    background-color: #330000;
+    transition-duration: 0.3s;
+}
 
 /* Marcelo: cuerpo de la noticia */
 .cuerpo-titulo,
@@ -157,7 +204,7 @@
 /* Santos: sobre el autor */
 
 /* Gabriel: descripcion */
-/* .card {
+    .card {
     margin: auto;
     width: 20rem;
     padding: 10px;
@@ -179,5 +226,5 @@
 .card > img{
     width: 100%;
     height: auto;
-} */
+}
 /* Enri: redes sociales */
