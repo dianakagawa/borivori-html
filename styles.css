@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CUIDEN NO SELECCIONAR LOS ITEMS DE LOS OTROS */
+
+/* Day: pie de articulo */
+.pie-articulo {
+    max-width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    padding: 30px;
+}
+
+.pietexto h2 {
+    text-align: center;
+}
+
+.pietexto em {
+    text-align: justify;
+}
+
+.pietexto a {
+    text-decoration: none;
+    color: black;
+}
+
+.pietexto a:hover {
+    color: #ffb861;
+}
+
+.pieform {
+    width: 300px;
+    height: 350px;
+    background-color: #fff6a1;
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+#pieboton {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    background-color: #59002a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+#pieboton:hover {
+    background-color: #330000;
+    transition-duration: 0.3s;
+}
+/* Jose: titular */
+
+/* Marcelo: cuerpo de la noticia */
+
+/* Santos: sobre el autor */
+
+/* Gabriel: descripcion */
+
+/* Enri: redes sociales */
