@@ -5,72 +5,284 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BoriVori</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-        <!-- josek titular -->
-        <p>Empresariales</p>
-        <h1 name="titular-josek">"El Vori sufre bajada en bolsa"</h1>
-        <!-- fin titular -->
+    <!-- josek titular -->
+    <header class="josek-header">
+      <h3 class="josek-PName">MAGELLANIC'S NEWS</h3>
+    </header>
+    <div class="josek-empresariales"><p>•Empresariales</p></div>
+    <h1 name="titular-josek" class="josek-titular">
+      "El Vori sufre bajada en bolsa"
+    </h1>
+    <!-- fin titular -->
 
-      <!-- aca comineza la Descripcion -->
-      <div class="card" style="width: 10rem height 10rem;">
-        <img src="https://http2.mlstatic.com/D_NQ_NP_784507-MLM42928353050_072020-W.jpg" alt="bolita">
-            <div class="container">
-                <h3>5 Muertos por no masticar la comida </h3>
-                    <p>En la ciudad de Asuncion Barrio los Laureles, unos jovenes
-                    programadores comen bori vori <br />
-                    y mueren porque estaban rellenas de bolitas lecherita. Vecinos
-                    comentan que se quejaron <br />
-                    porque la ensalada tenia manzana verde.</p> 
-            </div>
+    <!-- aca comineza la Descripcion -->
+    <div id="Descripcion">
+      <div id="gabriel">
+        <h4>
+          En la ciudad de Asuncion Barrio los Laureles, unos jovenes
+          programadores comen bori vori <br />
+          y mueren porque estaban rellenas de bolitas lecherita. Vecinos
+          comentan que se quejaron <br />
+          porque la ensalada tenia manzana verde.
+        </h4>
+        <h2>
+          <img
+            src="https://http2.mlstatic.com/D_NQ_NP_784507-MLM42928353050_072020-W.jpg"
+            width="100"
+            height="100"
+            alt="jueguito del demonho"
+          />
+        </h2>
       </div>
+    </div>
     <!-- aca termina la Descripcion -->
-    
+
     <!-- NO ELIMINAR MAS POR FAVOR ESTEES MIO DE MARCELO -->
     <div id="cuerpo">
-      <h2>Cuerpo de la noticia</h2>
-      <h3>Marcelo</h3>
-      <p>
+      <h2 class="cuerpo-titulo">Cuerpo de la noticia</h2>
+      <div class="cuerpo-audio-container">
+        <h4 class="cuerpo-audio-titulo">
+          Puedes escuchar la noticia con el siguiente audio:
+        </h4>
+        <audio src="./audio/audiosecreto.mp3" controls></audio>
+      </div>
+      <blockquote class="cuerpo-texto">
         Grupo de jovenes programadores muere por atragantamiento del vori vori,
         se presume que uno de los jòvenes dijo
         <strong>"el que mastica la bola es gay",</strong> lo cual causò el
         siniestro.
-      </p>
+      </blockquote>
+      <!-- Inicio de seccion articulos -->
+      <section class="cuerpo-seccion-articulos">
+        <!-- Inicio de articulo desastre -->
+        <article class="cuerpo-articulo-desastre">
+          <figure class="cuerpo-figure-desastre">
+            <img
+              class="cuerpo-img-desastre"
+              src="https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2021/02/22/jovenes-comiendo.jpeg"
+              alt="Foto antes del desastre"
+            />
+
+            <figcaption class="cuerpo-figcaption-desastre">
+              <strong> El rubio fue el maldito culpable </strong>
+            </figcaption>
+          </figure>
+          <p class="cuerpo-articulo-desastre-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id
+            molestias, earum, mollitia iste possimus aliquid quas excepturi,
+            fugiat officia numquam corrupti voluptate. Numquam, dignissimos?
+            Animi tenetur et repellat vero facere ipsam, impedit sed laborum
+            dignissimos veniam quod dolorum sequi mollitia, dolorem amet? Enim
+            ipsam cumque saepe repellendus nesciunt architecto fugiat nihil!
+            Excepturi sit, nemo illo minima a commodi asperiores.
+          </p>
+        </article>
+        <!-- Final de articulo desastre -->
+
+        <!-- Inicio de articulo espalda -->
+        <article class="cuerpo-articulo-espalda">
+          <figure class="cuerpo-figure-espalda">
+            <img
+              class="cuerpo-img-espalda"
+              src="https://pbs.twimg.com/media/CruLIB7WYAA4PUA.jpg"
+              alt="Que chota tengo que hacer en este caso"
+            />
+
+            <figcaption class="cuerpo-figcaption-espalda">
+              <strong>
+                Unas palmadas en la espalda para sacar al intruso
+              </strong>
+            </figcaption>
+          </figure>
+          <p class="cuerpo-articulo-espalda-texto">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+            repudiandae aliquid iusto voluptates tempore? Voluptatum quidem
+            quibusdam animi porro voluptatibus nemo officiis quam consequatur
+            perspiciatis ad quos modi placeat rem dolore error esse eos
+            assumenda, iure ab, quas veniam. Quidem doloribus esse at nulla
+            soluta dolorum velit quaerat placeat quo, dicta nisi impedit aperiam
+            inventore, natus beatae modi voluptatum debitis?
+          </p>
+        </article>
+        <!-- Final de articulo espalda -->
+      </section>
+      <!-- Final de seccion articulos -->
     </div>
     <!-- FINAL DE CUERPO -->
 
     <!-- Inicio del pie de articulo-->
     <div id="pie-de-articulo">
-      <em>
-        El Ministerio de Salud y Bienestar Público aconseja a la población
-        general a <strong>masticar sus voris</strong> para evitar
-        atragantarse.
-      </em>
+      <blockquote>
+        <h2>Pie de articulo</h2>
+        <em>
+          El Ministerio de Salud y Bienestar Público aconseja a la población
+          general a <strong>masticar sus voris</strong> para evitar
+          atragantarse. <br />
+          Tambien pone a disposicion de todo publico los siguientes recursos en
+          caso de atraganto: <br />
+          <blockquote>
+            <a
+              href="https://es.wikihow.com/ayudar-a-alguien-que-se-esté-atragantando"
+              >- Tres cosas que puedes hacer si alguien se esta atragantando</a
+            ><br />
+            <a
+              href="https://www.mayoclinic.org/es-es/first-aid/first-aid-choking/basics/art-20056637"
+              >- Que hacer si YO me estoy atragantando</a
+            ><br />
+            <a href="https://es.wikihow.com/prevenir-los-atragantamientos"
+              >- Como prevenir atragantamientos</a
+            ><br />
+            <a
+              href="https://www.colgate.com/es-py/oral-health/fillings/fillings-the-basics"
+              >- Restauracion dental</a
+            ><br /><br />
+          </blockquote>
+          general a <strong>masticar sus voris</strong> para evitar
+          atragantarse.
+        </em>
+        <form>
+          <em
+            >Inscribite a la campania
+            <strong>"No mas atragantos!"</strong> compartiendo tus datos con
+            nosotros:</em
+          ><br /><br />
+          <label for="fname">Nombre:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Paquito"
+          /><br />
+          <label for="lname">Apellido:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Perez"
+          /><br />
+          <label for="email" id="email" name="email">Email:</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ejemplo@mail.com"
+          /><br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </blockquote>
     </div>
     <!-- fin del pie de articulo -->
 
     <!-- Inicia seccion sobre el autor (Santos) -->
     <div id="sobre el autor">
+      <img
+        width="400"
+        src="https://i0.wp.com/cursoparaelexamencomipems.com/wp-content/uploads/2021/03/PUNTO-DE-VISTA-DEL-AUTOR-EN-UN-TEXTO.jpg"
+      />
+
       <h2>seccion sobre el autor</h2>
       <h3>Santos</h3>
       <p>
         Santiago Martinez, Licenciado en Periodismo por la Universidad Nacional
         de Asuncion Anteriormente, redactor de articulos en la seccion de
-        Judiciales y Politica del Diario ABC Color.
+        Judiciales y Politica del Diario ABC Color. Actualmente se encuentra
+        redactando en la seccion de noticias locales.
       </p>
+      <p>· <a href="http://www.facebook.com/" target="_blank">Facebook</a></p>
+      <p>· <a href="http://www.twitter.com/" target="_blank">Twitter</a></p>
     </div>
 
     <!-- Dani (Mas noticias como estas) -->
     <div id="mas-noticias">
-      <h1>Mas comidas t&iacute;picas</h1>
-      <ul>
-        <li>El kabure sube de precio</li>
-        <li>Hab&iacute;a sido el asadito de la esquina es de perro XD</li>
-        <li>Chipa Leticia es m&aacute;s rico que chipa Barrero</li>
-        <li>La sopa es mejor que el chipa guasu :)</li>
-      </ul>
+      <h2>Mas noticias como estas</h2>
+      <div>
+        <h3>El kabure sube de precio</h3>
+
+        <a
+          href="https://www.abc.com.py/gastronomia/2022/06/23/la-receta-infaltable-asi-se-hace-chipa-asador-o-kavure/"
+          target="_blank"
+          ><img
+            src="img/kavure_3.png"
+            alt="imagen de kavure"
+            width="400"
+            height="250" /><br
+        /></a>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure <br />
+          minus atque rerum vitae laudantium in officia esse velit harum <br />
+          quaerat optio, corrupti commodi tempore reprehenderit veniam, <br />
+          temporibus tenetur nam? Quae libero tenetur sed beatae quisquam.
+          <br />
+          Nihil, sit dignissimos. Saepe, error.
+        </p>
+        <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</b>
+      </div>
+
+      <div>
+        <h3>Hab&iacute;a sido el asadito de la esquina es de perro XD</h3>
+
+        <a
+          href="https://www.ultimahora.com/ya-no-mas-bendiciones-y-rezos-olor-asadito-n852809.html"
+          target="_blank"
+          ><img
+            src="https://www.lamañanaonline.com.ar/media/fotos/menu_20200714220221.jpeg"
+            alt="imagen de asadito"
+            width="400"
+            height="250" /><br
+        /></a>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure <br />
+          minus atque rerum vitae laudantium in officia esse velit harum <br />
+          quaerat optio, corrupti commodi tempore reprehenderit veniam, <br />
+          temporibus tenetur nam? Quae libero tenetur sed beatae quisquam.
+          <br />
+          Nihil, sit dignissimos. Saepe, error.
+        </p>
+        <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</b>
+      </div>
+
+      <div>
+        <h3>Chipa Leticia es m&aacute;s rico que chipa Barrero</h3>
+
+        <a
+          href="https://es-la.facebook.com/goncalix/videos/la-%C3%A9pica-pelea-entre-vecinos-que-nunca-ser%C3%A1-olvidada-30-de-mayo-de-2013aqu%C3%AD-la-c/254742725241260/"
+          target="_blank"
+          ><img
+            src="img/chipa.jpg"
+            alt="imagen de chipa"
+            width="400"
+            height="250" /><br
+        /></a>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure <br />
+          minus atque rerum vitae laudantium in officia esse velit harum <br />
+          quaerat optio, corrupti commodi tempore reprehenderit veniam, <br />
+          temporibus tenetur nam? Quae libero tenetur sed beatae quisquam.
+          <br />
+          Nihil, sit dignissimos. Saepe, error.
+        </p>
+        <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</b>
+      </div>
     </div>
     <!-- Dani (Mas noticias como estas) -->
-    
+    <footer>
+      <h4>Redes sociales</h4>
+      <br />
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Instagram</a><br />
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Facebook</a><br />
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        >Skype, q se yo lgm</a
+      ><br />
+
+      <h4>Recibir mas noticias como esta?</h4>
+      <input type="email" required placeholder="ramon@mailcaliente.com" />
+      <button type="submit">Regalar datos</button>
+    </footer>
   </body>
 </html>
