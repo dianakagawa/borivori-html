@@ -8,8 +8,13 @@
   </head>
   <body>
     <!-- josek titular -->
-    <p>Empresariales</p>
-    <h1 name="titular-josek">"El Vori sufre bajada en bolsa"</h1>
+    <header class="josek-header">
+      <h3 class="josek-PName">MAGELLANIC'S NEWS</h3>
+    </header>
+    <div class="josek-empresariales"><p>•Empresariales</p></div>
+    <h1 name="titular-josek" class="josek-titular">
+      "El Vori sufre bajada en bolsa"
+    </h1>
     <!-- fin titular -->
 
     <!-- aca comineza la Descripcion -->
@@ -36,37 +41,74 @@
 
     <!-- NO ELIMINAR MAS POR FAVOR ESTEES MIO DE MARCELO -->
     <div id="cuerpo">
-      <h2>Cuerpo de la noticia</h2>
-      <h3>Marcelo</h3>
-      <h4>Puedes escuchar la noticia con el siguiente audio:</h4>
-      <audio src="./audio/audiosecreto.mp3" controls></audio>
-      <p>
+      <h2 class="cuerpo-titulo">Cuerpo de la noticia</h2>
+      <div class="cuerpo-audio-container">
+        <h4 class="cuerpo-audio-titulo">
+          Puedes escuchar la noticia con el siguiente audio:
+        </h4>
+        <audio src="./audio/audiosecreto.mp3" controls></audio>
+      </div>
+      <blockquote class="cuerpo-texto">
         Grupo de jovenes programadores muere por atragantamiento del vori vori,
         se presume que uno de los jòvenes dijo
         <strong>"el que mastica la bola es gay",</strong> lo cual causò el
         siniestro.
-      </p>
-      <figure>
-        <img
-          src="https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2021/02/22/jovenes-comiendo.jpeg"
-          alt="Foto antes del desastre"
-          width="400" />
-      
-        <figcaption>
-          El rubio fue el maldito culpable
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="https://www.laprensa.com.ar/multimedios/imgs/102368_620.jpg"
-          alt="Que chota tengo que hacer en este caso"
-          width="400" />
-      
-        <figcaption>
-          Reventale la espalda a tu pana para salvarle la vida
-        </figcaption>
-      </figure>
-      
+      </blockquote>
+      <!-- Inicio de seccion articulos -->
+      <section class="cuerpo-seccion-articulos">
+        <!-- Inicio de articulo desastre -->
+        <article class="cuerpo-articulo-desastre">
+          <figure class="cuerpo-figure-desastre">
+            <img
+              class="cuerpo-img-desastre"
+              src="https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2021/02/22/jovenes-comiendo.jpeg"
+              alt="Foto antes del desastre"
+            />
+
+            <figcaption class="cuerpo-figcaption-desastre">
+              <strong> El rubio fue el maldito culpable </strong>
+            </figcaption>
+          </figure>
+          <p class="cuerpo-articulo-desastre-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id
+            molestias, earum, mollitia iste possimus aliquid quas excepturi,
+            fugiat officia numquam corrupti voluptate. Numquam, dignissimos?
+            Animi tenetur et repellat vero facere ipsam, impedit sed laborum
+            dignissimos veniam quod dolorum sequi mollitia, dolorem amet? Enim
+            ipsam cumque saepe repellendus nesciunt architecto fugiat nihil!
+            Excepturi sit, nemo illo minima a commodi asperiores.
+          </p>
+        </article>
+        <!-- Final de articulo desastre -->
+
+        <!-- Inicio de articulo espalda -->
+        <article class="cuerpo-articulo-espalda">
+          <figure class="cuerpo-figure-espalda">
+            <img
+              class="cuerpo-img-espalda"
+              src="https://pbs.twimg.com/media/CruLIB7WYAA4PUA.jpg"
+              alt="Que chota tengo que hacer en este caso"
+            />
+
+            <figcaption class="cuerpo-figcaption-espalda">
+              <strong>
+                Unas palmadas en la espalda para sacar al intruso
+              </strong>
+            </figcaption>
+          </figure>
+          <p class="cuerpo-articulo-espalda-texto">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+            repudiandae aliquid iusto voluptates tempore? Voluptatum quidem
+            quibusdam animi porro voluptatibus nemo officiis quam consequatur
+            perspiciatis ad quos modi placeat rem dolore error esse eos
+            assumenda, iure ab, quas veniam. Quidem doloribus esse at nulla
+            soluta dolorum velit quaerat placeat quo, dicta nisi impedit aperiam
+            inventore, natus beatae modi voluptatum debitis?
+          </p>
+        </article>
+        <!-- Final de articulo espalda -->
+      </section>
+      <!-- Final de seccion articulos -->
     </div>
     <!-- FINAL DE CUERPO -->
 
