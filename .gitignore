@@ -1,2 +1,4 @@
 pie-articulo.html
 .vscode
+[pull]
+    rebase = false
