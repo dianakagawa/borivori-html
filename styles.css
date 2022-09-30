@@ -201,6 +201,31 @@
   /* transform: translateY(-200px); */
 }
 
+@media (max-width: 910px) {
+  .cuerpo-texto {
+    font-size: 1rem;
+  }
+
+  .cuerpo-articulo-desastre,
+  .cuerpo-articulo-espalda {
+    flex-direction: column;
+  }
+
+  .cuerpo-figure-desastre {
+    width: 100%;
+  }
+
+  .cuerpo-articulo-desastre-texto,
+  .cuerpo-articulo-espalda-texto {
+    margin: 0 0 1rem 0;
+  }
+
+  .cuerpo-figure-espalda {
+    width: 100%;
+    order: 0;
+  }
+}
+
 /* Santos: sobre el autor */
 #autor {
   background-color: rgb(234, 222, 219);
