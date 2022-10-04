@@ -62,62 +62,70 @@
 
 /* Day: pie de articulo */
 .pie-articulo {
-  max-width: 860px;
-  margin: auto;
+  /*margin: auto;*/
   background-color: whitesmoke;
   font-family: "Lato", sans-serif;
-  padding: 5%;
+  padding: 2rem;
 }
 
-@media (min-width: 480px), (min-width: 768px) {
-  .pie-articulo {
-    width: 100%;
-  }
-}
-
-.pietexto h2 {
+.pie-articulo h2 {
   text-align: center;
 }
 
-em.pietexto {
-  text-align: justify;
-}
-
-.pietexto a {
+.list-item a {
+  display: list-item;
   text-decoration: none;
   color: black;
 }
 
-.pietexto a:hover {
+.list-item a:hover {
   color: #ffb861;
 }
 
 .pieform {
   margin: auto;
-  width: 300px;
-  height: 350px;
   background-color: #fff6a1;
   border-radius: 1rem;
   padding: 30px;
+  overflow: auto;
   
 }
 
-#pieboton {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  font-size: 16px;
+.pieform label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.pieform input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.pieform input[type=submit] {
+  font-size: 1rem;
   background-color: #59002a;
   border: none;
   border-radius: 5px;
   color: white;
   padding: 15px 32px;
   text-decoration: none;
+  float: right;
 }
 
 #pieboton:hover {
   background-color: #330000;
   transition-duration: 0.3s;
+}
+
+@media (max-width: 480px) {
+  .pieform .botonart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Marcelo: cuerpo de la noticia */
